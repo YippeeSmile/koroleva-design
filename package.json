@@ -1,0 +1,21 @@
+{
+    "name": "y",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack serve",
+        "build-dev": "webpack",
+        "build-prod": "webpack --node-env=production"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/YippeeSmile/koroleva-design.git"
+    },
+    "author": "Yuliya Padzheva",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/YippeeSmile/koroleva-design/issues"
+    },
+    "homepage": "https://github.com/YippeeSmile/koroleva-design#readme"
+}
