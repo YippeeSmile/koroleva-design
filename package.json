@@ -17,5 +17,11 @@
     "bugs": {
         "url": "https://github.com/YippeeSmile/koroleva-design/issues"
     },
-    "homepage": "https://github.com/YippeeSmile/koroleva-design#readme"
+    "homepage": "https://github.com/YippeeSmile/koroleva-design#readme",
+    "dependencies": {
+        "clean-webpack-plugin": "^4.0.0",
+        "copy-webpack-plugin": "^11.0.0",
+        "html-webpack-plugin": "^5.5.4",
+        "mini-css-extract-plugin": "^2.7.6"
+    }
 }
