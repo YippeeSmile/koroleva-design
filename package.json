@@ -23,5 +23,9 @@
         "copy-webpack-plugin": "^11.0.0",
         "html-webpack-plugin": "^5.5.4",
         "mini-css-extract-plugin": "^2.7.6"
+    },
+    "devDependencies": {
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^4.15.1"
     }
 }
