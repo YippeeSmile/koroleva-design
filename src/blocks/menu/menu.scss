@@ -6,4 +6,13 @@
         align-items: center;
         gap: 20px;
     }
+    &__item {
+        color: #2a2c2f;
+        font-size: 17px;
+        font-weight: 400;
+        &:hover {
+            transition: opacity ease-in .5;
+            opacity: 0.5;
+        }
+    }
 }
