@@ -12,11 +12,9 @@
     <header class="header">
         <nav class="menu">
             <ul class="list menu__list">
-                <li class="menu__item"><a class="menu__link" href="">Услуги</a></li>
                 <li class="menu__item"><a class="menu__link" href="">О нас</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Услуги и тарифы</a></li>
                 <li class="menu__item"><a class="menu__link" href="">Готовые проекты</a></li>
-                <li class="menu__item"><a class="menu__link" href="">Цены</a></li>
-                <li class="menu__item"><a class="menu__link" href="">Как мы работаем</a></li>
                 <li class="menu__item"><a class="menu__link" href="">Контакты</a></li>
                 <li class="menu__item"><a class="menu__link" href="">Оставить заявку</a></li>
             </ul>
@@ -25,20 +23,64 @@
     <main class="main">
         <section class="banner">
             <img src="/images/main-banner.jpg" class="banner__image">
-            <h1 class="banner__title">Дизайн домашнего пространства</h1>
-            <h2 class="banner__subtitle"><a href="">Наши проекты</a></h2>
+            <div class="banner__text-wrapper">
+                <h1 class="banner__title">Дизайн домашнего пространства</h1>
+                <h2 class="banner__subtitle"><a href="">Наши проекты</a></h2>
+            </div>
         </section>
-        <section cclass="projects">
-            <img src="./images/grid/baltiysky01.png" class="projects__item" alt="ЖК Балтийский">
-            <img src="./images/grid/nevskiy01.png" class="projects__item" alt="ЖК Невский">
-            <img src="./images/grid/oct-pole01.jpg" class="projects__item" alt="ЖК Октябрьское Поле">
-            <img src="./images/grid/unionpark01.jpg" class="projects__item" alt="ЖК UnionPark">
-            <img src="./images/grid/vasil01.jpg" class="projects__item" alt="ул. Васильевская">
-            <img src="./images/grid/versis01.jpg" class="projects__item" alt="ЖК Versis">
-            <img src="./images/grid/welton01.jpg" class="projects__item" alt="ЖК Welton">
-            <img src="./images/grid/zilart01.jpg" class="projects__item" alt="ЖК ЗилАрт">
-            <img src="./images/grid/homecity01.jpg" class="projects__item" alt="ЖК Homecity">
-            <img src="./images/grid/trend01.jpg" class="projects__item" alt="ЖК Тренд">
+        <section class="projects">
+            <h3 class="projects__title">Наши проекты</h3>
+            <div class="projects__grid-container">
+                <div class="projects__item">
+                    <img src="./images/grid/nevskiy01.png" class="projects__img" alt="ЖК Невский">
+                    <p class="projects__name">ЖК Невский</p>
+                </div>
+                <div class="projects__item">
+                    <img src="./images/grid/homecity01.jpg" class="projects__item" alt="ЖК Homecity">
+                    <p class="projects__name">ЖК Homecity</p>
+                </div>
+                <div class="projects__item">
+                    <img src="./images/grid/trend01.jpg" class="projects__item" alt="ЖК Trend">
+                    <p class="projects__name">ЖК Trend</p>
+                </div>
+                <div class="projects__item">
+                    <img src="./images/grid/oct-pole01.jpg" class="projects__img" alt="ЖК Октябрьское Поле">
+                    <p class="projects__name">ЖК Октябрьское Поле</p>
+                </div>
+                <div class="projects__item">
+                    <img src="./images/grid/unionpark01.jpg" class="projects__img" alt="ЖК UnionPark">
+                    <p class="projects__name">ЖК UnionPark</p>
+                </div>
+                <div class="projects__item">
+                    <img src="./images/grid/vasil01.jpg" class="projects__img" alt="ул. Васильевская">
+                    <p class="projects__name">ул. Васильевская</p>
+                </div>
+                <div class="projects__item">
+                    <img src="./images/grid/versis01.jpg" class="projects__img" alt="ЖК Versis">
+                    <p class="projects__name">ЖК Versis</p>
+                </div>
+                <div class="projects__item">
+                    <img src="./images/grid/baltiysky01.png" class="projects__img" alt="ЖК Балтийский">
+                    <p class="projects__name">ЖК Балтийский</p>
+                </div>
+                <div class="projects__item projects__item--7">
+                    <img src="./images/grid/welton01.jpg" class="projects__img" alt="ЖК Welton">
+                    <p class="projects__name">ЖК Welton</p>
+                </div>
+                <div class="projects__item">
+                    <img src="./images/grid/zilart01.jpg" class="projects__img" alt="ЖК ЗилАрт">
+                    <p class="projects__name">ЖК ЗилАрт</p>
+                </div>
+
+                <!--дублирую-->
+                <div class="projects__item">
+                    <img src="./images/grid/baltiysky01.png" class="projects__img" alt="ЖК Балтийский">
+                    <p class="projects__name"></p>
+                </div>
+                <div class="projects__item">
+                    <img src="./images/grid/nevskiy01.png" class="projects__img" alt="ЖК Невский">
+                </div>
+            </div>
         </section>
     </main>
     <!--<footer class="footer">
