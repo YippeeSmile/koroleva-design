@@ -37,5 +37,9 @@
         line-height: 24px;
         z-index: 2;
         text-align: center;
+        &:hover {
+            transition: opacity ease-in-out 0.3;
+            opacity: 0.4;
+        }
     }
 }
