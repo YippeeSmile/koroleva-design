@@ -15,10 +15,14 @@ module.exports = {
     devtool,
     entry: path.resolve(__dirname, 'src/pages', 'index.js'),
     output: {
-        path: path.resolve(__dirname, 'dist'),
-        clean: true,
-        filename: 'index.[contenthash].js',
-        publicPath: ''
+        /*
+                path: path.resolve(__dirname, 'dist'),
+                clean: true,
+                filename: 'index.[contenthash].js',
+                publicPath: ''*/
+        filename: '[name].js',
+        path: __dirname + '/build',
+        chunkFilename: '[id].[chunkhash].js'
     },
     devServer: {
         static: path.resolve(__dirname, 'dist'),
@@ -62,7 +66,13 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: path.resolve(__dirname, 'src', 'index.html')
+            filename: 'index.html',
+            //template: path.resolve(__dirname, 'src', 'index.html')
+            template: 'src/index.html'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'homecity.html',
+            template: 'src/pages/projects/homecity.html'
         }),
         new CleanWebpackPlugin(),
         new MiniCssExtractPlugin({
